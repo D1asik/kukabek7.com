@@ -1,0 +1,48 @@
+body {
+    background-image: url('phon.jpg'); background-size: cover; background-repeat: no-repeat;  background-position: center; background-attachment: fixed; font-family: Arial, sans-serif; color: #333;  margin: 0; padding: 0; line-height: 1.6;}
+h1 { color: #ff69b4; font-size: 2.5em; text-align: center; }
+h2 {color: #ff69b4; text-align: left; margin-bottom: 15px;}
+h2 {font-size: 1.8em;
+}
+p {text-align: left; margin-bottom: 15px; color: #fa8805;
+}
+img {
+    display: block; margin: 10px 0; max-width: 100%; height: auto;text-align: left; border-radius: 8px; border: 2px solid #ddd; }
+video {display: block; 
+    margin: 10px 0; 
+    width: 100%; 
+    max-width: 600px;
+    text-align: left; 
+    border-radius: 8px; 
+    border: 2px solid #ccc;
+}
+audio {display: block; 
+    margin: 10px 0; 
+    text-align: left; 
+}
+table {width: 100%; 
+    border-collapse: 
+    collapse; margin-top: 
+    15px; background-color: #fff; 
+    text-align: left; 
+}
+th, td {border: 1px solid #ddd; 
+    padding: 10px;
+}
+th {background-color: #ff69b4;
+     color: white;
+    }
+a {color: blue;
+     text-decoration: none;}
+@media (max-width: 768px) {
+    body {
+        font-size: 90%; 
+    }
+    img, video {
+        width: 100%;
+        height: auto;
+    }
+    table {
+        font-size: 0.9em;
+    }
+}
